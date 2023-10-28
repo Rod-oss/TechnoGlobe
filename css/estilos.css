@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+body { 
+    font-family: 'Heebo', sans-serif;
+    overflow-x: hidden;
+}
+html {
+    font-size: 1rem;
+    font-weight: 400;
+}
+header {
+    background-color: #fdfbfbe7;
+    color: #fff;
+    
+} 
+.content {
+    flex: 1;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: #fdfbfb;
+    position: sticky;
+    top: 0;
+    height: 100px;
+    padding: 5px 0;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0; 
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    position: sticky;
+    font-size: 1rem;
+}
+
+.navbar li a {
+    color: #ee8282;
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: color 0.3s;
+    display: block;
+    text-align: center;
+    padding: 10px 5px; 
+}
+
+.navbar li:hover a {
+    background-color: #ddd;
+    color: #fff;
+    padding: 5px;
+    background-color: #1a5bbc93;
+    height: 30px;
+}
+
+/* Estilos para el logo */
+.logo {
+    max-width: 250px;
+    max-height: 79.5px;
+    float: left;
+    display: inline;
+}
+
+.logo_nav {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+/* Estilos para el elemento 'nav' */
+nav {
+    position: relative;
+    display: inline;
+    bottom: 5px;
+    left: 20px;
+}
+
+
+
+
+/* Estilos de párrafo */
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.main h1{
+     text-align: center;
+    
+}
+
+article {
+    
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+article h2 {
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #333;
+    font-size: 22px;
+}
+
+article p, article a {
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #666;
+    font-size: 18px;
+}
+
+
+
+/* Estilos del footer */
+
+footer {
+    background-color: #2e6fb9e1;
+    color: #d3d0d0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    margin-bottom: 5px;
+    height: 100px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+}
+
+
+
+
+/* Propiedades para la organización del contenido en la página "Reseñas" */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    align-items: center;
+}
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    align-content: center;
+}
+
+.grid-containerreseñas {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+/* Propiedades del la reproducción y organización de los vídeos en la página "Vídeos" */
+
+  
+.video-grid-item iframe {
+    width: 560px;
+    height: 315px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid black
+}
+  
+.video-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+/* Propiedades del formulario en la página de "Contacto" */
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+  
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+input[type=reset] {
+    width: 100%;
+    background-color: #428ed4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+input[type=reset]:hover {
+    background-color: #2177c7;
+}
